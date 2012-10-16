@@ -2,8 +2,7 @@
 $(document).ready(function() {
 
 	// get initial configs state
-		var start_config_avail = $('#customize').html(),
-				default_foreground_color = $('#prompt').css("color"),
+		var default_foreground_color = $('#prompt').css("color"),
 				default_background_color = $('#prompt').css("background-color");
 
 	// enable sortable lists with jquery-ui
